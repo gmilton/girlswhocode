@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(to bottom right, #131412, #921920);
+    color: darkgrey;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+#show {
+    font-family: 'Lobster', cursive;
+    font-size: 250%;
+}
+#current {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 349px;
+    margin-right: 349px;
+    text-align: justify;
+    font-size: 20px;
+}
+#episode {
+    font-family: 'Lobster', cursive;
+}
+#Ripper {
+    font-family: 'Lobster', cursive;
+}
+a:link {
+    color: indianred;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: indianred;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: dimgrey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 20%;
+}
+th, td {
+    padding: 15px;
+}
+table {
+    border-spacing: 5px;
+}
+table tr:nth-child(even) {
+    background-color: #eee;
+    color: #444444;
+}
+table tr:nth-child(odd) {
+    background-color: #fff;
+    color: #444444;
+}
+table th {
+    color: white;
+    background-color: dimgrey;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #121212;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+#giles_button {
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+#spike_button {
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+  padding: 1em;
+  color: darkgrey;
+  background: transparent;
+  clear: left;
+  text-align: center;
+}
