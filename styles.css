@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to bottom right, firebrick, black);
+    color: darkgrey;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+#show {
+    font-family: 'Lobster', cursive;
+    font-size: 250%;
+}
+#current {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    padding: 1em;
+    color: darkgrey;
+    background: transparent;
+    clear: left;
+    text-align: center;
+}
+
+button {
+    padding: 50;
+    background-color: aliceblue;
+}
+
+button:hover {
+    opacity: 0.8;
+    height: 350px;
+    width: 350px;
+}
+
+h3 {
+    color: #444444;
+}
+
+#answer {
+    font-family: 'Lobster', cursive;
+}
+
+#yay {
+    font-family: 'Raleway', sans-serif;
+}
+
+#description {
+    margin-left: 200px;
+    margin-right: 200px;
+}
