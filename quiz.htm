@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--Remember to make prettier with different fonts, like Lobster-->
+<html lang=en-UK>
+  <head>
+    <title>Personality Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="description" content="Interactive personaluty quiz">
+    <meta name="keywords" content="personality quiz, personality, quiz">
+    <meta name="author" content="Grace Milton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      function results(id) {
+        document.getElementById("answer").innerHTML = "Congratulations!";
+        document.getElementById("yay").innerHTML = "You love Buffy!";
+        switch (id) {
+          case 'y':
+            document.getElementById("description").innerHTML = "Does anything else need to be said? You have great taste in television shows!";
+            break;
+          case 'n':
+            document.getElementById("description").innerHTML = "Okay okay okay. I know you technically chose 'No', but there are two types of people in this world: those who love Buffy and those who won't allow themselves to love Buffy.";
+            break;
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <hr id="top">
+    <header><h1 id="show">Personality Quiz</h1></header>
+    <h2 id="current"><strong>Do you like Buffy the Vampire Slayer?</strong></h2>
+    <button id="y" onclick=results(id)><img src="spikeyes.gif" alt="spikeyes.gif" height=300px; width=350px;><h3 id="choice1">Yes</h3></button>
+    <button id="n" onclick=results(id)><img src="spikeno.gif" alt="spikeno.gif" height=300px; width=350px;><h3 id="choice2">No</h3></button>
+    <br><br><br><br><br>
+    <h2 id="answer"></h2>
+    <h4 id="yay"></h4>
+    <p id="description"></p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <hr>
+  </body>
+</html>

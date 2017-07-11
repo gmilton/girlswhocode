@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=en-UK>
+  <head>
+    <title>Ubbi Dubbi Translator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="description" content="Translates English to Ubbi Dubbi">
+    <meta name="keywords" content="ubbi dubbi, translator">
+    <meta name="author" content="Grace Milton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      var vowels = ["a","e","i","o","u"];
+      function results() {
+        document.getElementById("target").style.visibility = "visible";
+        translate(document.getElementById("source").value);
+      }
+      function translate(original) {
+        var translation = "";
+        for (i = 0; i < original.length; i++) {
+          if (original[i] == "a" || original[i] == "e" || original[i] == "i" || original[i] == "o" || original[i] == "u") {
+            translation = translation + "ub" + original[i];
+            original[i+1] = "!";
+          }
+          else {
+            translation = translation + original[i];
+          }
+        }
+        document.getElementById("target").value = translation;
+      }
+    </script>
+  </head>
+
+  <body>
+    <hr id="top">
+    <header><h1 id="show">Ubbi Dubbi Translator</h1></header>
+    <h2 id="current"><strong>What would you like translated?</strong></h2>
+    <textarea id="source" onclick=results(id) rows=7; cols=60;></textarea>
+    <br>
+    <button onclick="results()">Translate</button>
+    <br>
+    <textarea id="target" style="visibility:hidden" onclick=results(id) rows=7; cols=60;></textarea>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <hr>
+  </body>
+</html>

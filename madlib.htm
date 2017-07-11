@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--Remember to make prettier with different fonts, like Lobster-->
+<html lang=en-UK>
+  <head>
+    <title>Mad Libs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="description" content="An interactive Mad Libs">
+    <meta name="keywords" content="Mad Libs, ad lib, mad, libs">
+    <meta name="author" content="Grace Milton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      var words = ["one","two","three","four","five","six","seven","eight","nine"];
+      function set() {
+        for (i = 0; i < words.length; i++) {
+          words[i] = document.getElementById(i).value;
+        }
+        document.getElementById('current').innerHTML="In the year "+words[0]+" I took my degree of "+words[1]+" of "+words[2]+" of the University of London, and proceeded to Netley to go through the course prescribed for "+words[3]+" in the Army. Having completed my studies there, I was "+words[4]+" attached to the Fifth Northumberland "+words[5]+" as assistant "+words[6]+". The regiment was stationed in "+words[7]+" at the time, and before I could join it, the Second "+words[8]+" War had broken out."
+        current.style.visibility="visible";
+      }
+    </script>
+  </head>
+
+  <body>
+    <hr id="top">
+    <header><h1 id="show">Mad Libs</h1></header>
+    <!-- Number, Doctor, Medicine, noun, adverb, noun, noun, place,
+    thing, place, thing, place, thing, past tense verb-->
+    <p>Please fill in all the blanks.</p>
+    <div style="text-align:justify; margin-left:500px;">
+      <input id=0 type="text" value=""> Number</input><br>
+      <input id=1 type="text" value=""> Profession</input><br>
+      <input id=2 type="text" value=""> Noun</input><br>
+      <input id=3 type="text" value=""> Noun (plural)</input><br>
+      <input id=4 type="text" value=""> Adverb</input><br>
+      <input id=5 type="text" value=""> Proper Noun (plural)</input><br>
+      <input id=6 type="text" value=""> Noun (singular)</input><br>
+      <input id=7 type="text" value=""> Place</input><br>
+      <input id=8 type="text" value=""> Adjective</input><br>
+    </div>
+    <br>
+    <input id="submit_button" onclick="set()" type="submit" value="Madify!" onclick="document.getElementById('demo').innerHTML = 'But Peroxide?'" />
+    <p id="current" style="visibility:hidden">In the year 1878 I took my degree of Doctor of Medicine of the University of London, and proceeded to Netley to go through the course prescribed for surgeons in the Army. Having completed my studies there, I was duly attached to the Fifth Northumberland Fusiliers as assistant surgeon. The regiment was stationed in India at the time, and before I could join it, the second Afghan war had broken out.</p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <hr>
+  </body>
+</html>

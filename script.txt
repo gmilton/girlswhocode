@@ -1,0 +1,79 @@
+packet: the information that travels between one place and another on the internet, one object may be sent into multiple packets, each has internet address of where it's from and where it's going
+IP address: address of a client or server, number unique to each device on network, Domain Name System gives IP addresses better names (aliases)
+How data travels from client to server: user puts in domain name and DNS translates it into IP address, information split into multiple packets and sent to IP address, directed my routers to cheapest (time, politics, relationships) path for each piece of data
+TCP = phone call
+
+Domain Name Server, Router
+
+Characters: Batman, Commissioner Gordon, Alfred, Generic Police Officer, Batmobile
+
+Outline:
+How does your play start?
+At Police HQ in Gotham, where a crisis in brewing.
+
+
+What happens that leads up to the main conflict?
+Gordon needs to find Batman, but he doesn't have his real name.
+
+What is the conflict?
+Alfred translates the Bat signal to Bruce Wayne and then Batman has to get to Police HQ.
+
+How is the conflict resolved?
+The Batmobile guides him there.
+
+How does the story end?
+Batman saves the day and we learn about the internet.
+
+Script Draft:
+
+It's a stormy night in Gotham, and of course something bad is happening. The police have tried their best, but they need (dun dun) Batman.
+
+GORDON: That's it. We need Batman.
+
+GENERIC POLICE OFFICER: Yep, boss.
+
+GORDON: IT'S A GOOD THING WE HAVE A HANDY DANDY BAT SIGNAL.
+
+GPO: Yep.
+
+They turn on the bat signal and wait.
+
+GPO: You know what this reminds me of boss?
+
+GORDON: No. What, officer?
+
+GPO: Well, I feel like we're a client on the internet.
+
+GORDON: I'm too old for this.
+
+Meanwhile, it is raining as mentioned so Batman is inside and can't see the Bat signal (oh no!). Luckily, Alfred is out.
+
+ALFRED: Oh no, the Bat signal! They're looking for Batman, but they don't know his real name. Luckily I do.
+
+ALFRED: Wow. I'm like a Domain Name Server. I would be more like a DNS if I gave them his real name back but that would ruin his superhero cred so let's just pretend I'm more like a DNS than I really am.
+
+ALFRED: I'll go get Bruce now.
+
+Alfred goes to find Bruce.
+
+BRUCE: Wow, let's switch the story up a bit so I'm the client now. Who cares about continuity?
+
+BRUCE: I need to get to Police HQ.
+
+Bruce changes into his Batman costume, er, uniform, and heads to the Batmobile.
+
+BATMOBILE: Sir, you could go in a straight line to get there, but because of the storm a tree has fallen so that's not the fastest route.
+
+BATMAN: Drat.
+
+BATMOBILE: You also can't go through South Gotham because Superman is there right now and your colors clash.
+
+BATMAN: Dang these politics.
+
+BATMOBILE: I'm going to send you on this cheapest path.
+
+BATMAN: (gruffly) Cool.
+
+BATMOBILE: Wow. It's almost like I'm a router and you're a packet of information being sent on the internet. Wow.
+
+In the end, Batman makes it to Police HQ and saves the day. More interestingly, we kind of learned about the Internet. Yay!
